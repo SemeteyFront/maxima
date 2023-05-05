@@ -1,0 +1,48 @@
+.teachers {
+  padding: 0 20px;
+  width: 1400px;
+
+  .ant-table-cell:nth-child(5):nth-child(n+2) {
+    span {
+      color: rgb(245, 72, 72);
+      font-weight: bold;
+      font-size: 10px;
+      padding: 5px 20px;
+      background-color: rgb(237, 194, 165);
+      border-radius: 30px;
+    }
+  }
+
+  .teachers__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .ant-menu {
+    width: auto;
+    background-color: inherit;
+    display: flex;
+    justify-content: start;
+    column-gap: 5px;
+    border: none;
+
+    .ant-btn {
+      border: none;
+      background-color: inherit;
+      padding: 0;
+      width: auto;
+    }
+  }
+
+  .ant-input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(186, 179, 179);
+    display: block;
+    border-radius: 15px;
+    margin: 20px 0;
+  }
+  
+}

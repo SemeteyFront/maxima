@@ -1,0 +1,89 @@
+.teacherModal {
+
+  .ant-typography {
+    margin-bottom: 40px;
+  }
+
+  .ant-divider {
+    position: relative;
+
+    span {
+      position: absolute;
+      left: 20px;
+      padding: 0 10px;
+      width: auto;
+      background-color: white;
+    }
+  }
+
+  .teachers__form {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+
+    .ant-input:nth-of-type(1) {
+      height: 45px;
+      border-radius: 20px;
+      width: 300px;
+      font-size: 18px;
+    }
+
+    .teacher__label {
+      position: relative;
+
+      label {
+        position: absolute;
+        z-index: 2;
+        top: -10px;
+        left: 10px;
+        width: auto;
+        padding: 0 5px;
+        background-color: white;
+        color: rgb(219, 210, 210);
+      }
+    }
+
+    .ant-select-selector {
+      height: 45px;
+      border-radius: 20px;
+      align-items: center;
+      width: 120px;
+    }
+
+    .ant-input:nth-of-type(2) {
+      height: 45px;
+      width: 300px;
+      border-radius: 20px;
+      font-size: 18px;
+    }
+  }
+
+  .teachers__datas {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+
+    .ant-input {
+      height: 45px;
+      border-radius: 20px;
+    }
+  }
+
+  .teachers__btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+
+    .ant-btn {
+      height: 35px;
+      border-radius: 20px;
+    }
+
+    .ant-btn:first-child {
+      border: 1px solid rgb(204, 171, 240);
+      color: rgb(144, 76, 216);
+    }
+  }
+
+}
